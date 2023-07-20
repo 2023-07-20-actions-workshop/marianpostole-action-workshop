@@ -1,0 +1,12 @@
+name: MP_ga
+
+on:
+  workflow_dispatch:
+    
+jobs: 
+  MP_ga:
+    name: MP_ga job
+    run-ons: ubuntu-latest
+    
+    steps:
+      - run: echo "Hello world"
