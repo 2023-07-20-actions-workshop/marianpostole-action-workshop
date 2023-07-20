@@ -13,5 +13,8 @@ jobs:
       - run: ls -lah
       - run: whoami
       - run: df -h
+      - run: lsb_release -a
+      - run: free -m
+      - run: cat /proc/cpuinfo
       - uses: actions/checkout@v2
       - run: ls -lah
