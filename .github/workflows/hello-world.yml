@@ -11,5 +11,7 @@ jobs:
     steps:
       - run: echo "Hello world"
       - run: ls -lah
+      - run: whoami
+      - run: df -h
       - uses: actions/checkout@v2
       - run: ls -lah
