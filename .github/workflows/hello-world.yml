@@ -6,7 +6,7 @@ on:
 jobs: 
   MP_ga:
     name: MP_ga job
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     
     steps:
       - run: echo "Hello world"
