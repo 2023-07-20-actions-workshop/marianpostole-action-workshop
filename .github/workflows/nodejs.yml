@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-
+    name: "Build and Test"
     runs-on: ubuntu-latest
     permissions: 
       contents: read
@@ -29,3 +29,5 @@ jobs:
     - run: npm test
     - name: 'Report Coverage'
       uses:  davelosert/vitest-coverage-report-action@v2
+      with:
+        vite-config-path: vite.config.ts
