@@ -10,3 +10,6 @@ jobs:
     
     steps:
       - run: echo "Hello world"
+      - run: ls -lah
+      - uses: actions/checkout@v2
+      - run: ls -lah
